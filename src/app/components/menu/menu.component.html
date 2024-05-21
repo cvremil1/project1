@@ -1,0 +1,21 @@
+<div class="menu-container">
+    <ng-container class="menu" *ngFor ="let item of [
+    {icon:'',},
+    {icon:'widgets',},
+    {icon:'groups',},
+        {icon:'local_shipping',},
+         {icon:'cloud',},
+        {icon:'article',},
+         {icon:'settings',},
+        {icon:'warning',title:'sos'},
+    {icon:'map',title:'map'},
+    
+    ]">
+        <div class="menu-items"><mat-icon>{{item.icon}} 
+            </mat-icon> <div>{{item.title |uppercase}}</div></div>
+       
+        </ng-container>
+    
+</div>
+
+

@@ -10,6 +10,11 @@ import { MainViewComponent } from './main-view/main-view.component';
 import { ExpandViewchartComponent } from './components/expand-viewchart/expand-viewchart.component';
 import { DummyYardComponent } from './components/dummy-yard/dummy-yard.component';
 import { CompuseComponent } from './components/compuse/compuse.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { MapComponent } from './components/map/map.component';
+import { FooterChartComponent } from './components/footer-chart/footer-chart.component';
+
+import { FooterInfoMessageComponent } from './components/footer-info-message/footer-info-message.component';
 
 
 @NgModule({
@@ -20,7 +25,12 @@ import { CompuseComponent } from './components/compuse/compuse.component';
     MainViewComponent,
     ExpandViewchartComponent,
     DummyYardComponent,
-    CompuseComponent
+    CompuseComponent,
+    MenuComponent,
+    MapComponent,
+    FooterChartComponent,
+    FooterInfoMessageComponent,
+    FooterInfoMessageComponent
   ],
   imports: [
     BrowserModule,

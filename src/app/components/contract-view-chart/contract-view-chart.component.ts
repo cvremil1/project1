@@ -95,7 +95,7 @@ export class ContractViewChartComponent implements OnInit, OnDestroy ,AfterViewI
       //   orientation: "horizontal"
       // }));
 
-      let data = generateDatas(100);
+      let data = generateDatas(200);
       series.data.setAll(data);
 
       series.appear(1000);
