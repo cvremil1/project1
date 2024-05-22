@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./map.component.scss']
 })
 export class MapComponent {
-
+  title = 'My first AGM project';
+  lat = 51.678418;
+  lng = 7.809007;
 }

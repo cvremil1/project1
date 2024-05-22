@@ -13,8 +13,8 @@ import { CompuseComponent } from './components/compuse/compuse.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { MapComponent } from './components/map/map.component';
 import { FooterChartComponent } from './components/footer-chart/footer-chart.component';
-
 import { FooterInfoMessageComponent } from './components/footer-info-message/footer-info-message.component';
+
 
 
 @NgModule({
@@ -36,9 +36,25 @@ import { FooterInfoMessageComponent } from './components/footer-info-message/foo
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+// 
+// @NgModule({
+//   // ...
+//   imports: [
+//     // ...
+//     AgmCoreModule.forRoot({
+//       apiKey: 'YOUR_GOOGLE_MAPS_API_KEY'
+//     }),
+//     // ...
+//   ],
+//   // ...
+// })
+// export class AppModule { }
