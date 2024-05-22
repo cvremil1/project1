@@ -32,9 +32,10 @@
 
         &:nth-last-child(2) {
             position: absolute;
-            //with of this element +1px
-            bottom: calc( 100px);
+            border-bottom:none;
+            bottom:  50px;
             color: red;
+            
             div{
                 color: black;  
             }
