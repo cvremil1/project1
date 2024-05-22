@@ -14,8 +14,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { MapComponent } from './components/map/map.component';
 import { FooterChartComponent } from './components/footer-chart/footer-chart.component';
 import { FooterInfoMessageComponent } from './components/footer-info-message/footer-info-message.component';
-
-
+import { GoogleMapsModule } from '@angular/google-maps'
 
 @NgModule({
   declarations: [
@@ -37,7 +36,10 @@ import { FooterInfoMessageComponent } from './components/footer-info-message/foo
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-
+    GoogleMapsModule
+    // AgmCoreModule.forRoot({
+    //   apiKey: 'AIzaSyBReKVLp2W5_uSS71nrP11OtB_mbPopURY'
+    // })
   ],
   providers: [],
   bootstrap: [AppComponent]

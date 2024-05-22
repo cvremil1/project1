@@ -10,7 +10,7 @@
   },
   "private": true,
   "dependencies": {
-
+    "@agm/core": "^3.0.0-beta.0",
     "@amcharts/amcharts5": "^5.9.8",
     "@angular/animations": "^16.0.0",
     "@angular/cdk": "^16.2.14",
@@ -18,11 +18,12 @@
     "@angular/compiler": "^16.0.0",
     "@angular/core": "^16.0.0",
     "@angular/forms": "^16.0.0",
-  
+    "@angular/google-maps": "^17.3.9",
     "@angular/material": "^16.2.14",
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
+    "@types/googlemaps": "^3.43.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
